@@ -39,6 +39,9 @@ The main use cases for {studio} are as follows:
 +
 You can use {studio-long} to visually design the API and data models (_contracts_) required by your applications, before you write any application code. After you define the contract, it’s much easier to create the application logic needed to satisfy the contract. You can generate Quarkus-based client and server applications from designs created in {studio-long}.
 
+ifndef::apicurio-studio-downstream[]
+
 * *Schema editing for Kafka applications*
 +
 When you use Kafka to produce and consume messages, you can define the data shape of your message payloads by using one of a number of event schema types. When you need to define a new schema, you can use {studio-long}.
+endif::[]
