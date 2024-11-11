@@ -1,13 +1,12 @@
 include::partial$shared/all-attributes.adoc[]
 
-[id="installing-studio-docker"]
-= Installing {studio} using Docker
+[id="installing-studio-kubernetes"]
+= Installing {studio} on {container-platform}
 
 [role="_abstract"]
-This chapter explains how to install and run {studio} using Docker with the following storage options:
+This chapter explains how to install {studio} on {container-platform-long}:
 
-* xref:installing-studio-in-memory-storage-docker[]
-* xref:installing-studio-sql-storage-docker[]
+* TODO
 
 .Prerequisites
 * {studio-introduction}
@@ -27,5 +26,5 @@ ifdef::apicurio-studio-downstream[]
 * For installation examples, including Docker Compose files, Kubernetes resources, and OpenShift templates, see {studio-examples}.
 endif::[]
 
-include::partial$proc-installing-studio-in-memory-storage-docker.adoc[leveloffset=+1]
-include::partial$proc-installing-studio-sql-storage-docker.adoc[leveloffset=+1]
+//INCLUDES
+TODO
