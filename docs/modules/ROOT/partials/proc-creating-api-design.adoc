@@ -8,7 +8,7 @@ Use the {studio-long} web console to create an OpenAPI or AsyncAPI definition.
 * You're logged in to the {studio} web console.
 
 .Procedure
-. In the {studio} web console, click *Create design*.
+. In the {studio} web console, click *Create draft*.
 . Complete the form to provide the following details for the new design:
 * *Name*: Enter a unique design name, such as `My API Design`.
 * *Description* _(Optional)_: Enter a short description of the design.

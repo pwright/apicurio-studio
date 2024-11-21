@@ -11,9 +11,6 @@ ifndef::apicurio-studio-downstream[]
 
 :org-name: Apicurio
 
-:studio: Apicurio Studio
-:studio-long: {studio}
-
 :studio-version: 1.0.0
 :studio-legacy-version: 0.2.x
 
