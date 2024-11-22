@@ -4,7 +4,7 @@
 {studio-long} enables you to design schemas and API definitions. It provides a web console to make it easy for API owners and developers to manage the content of event schemas and API definitions.
 
 ifndef::apicurio-studio-downstream[]
-You can use {studio} to create a schema or API design from a simple template, use one of the detailed templates provided, or import an existing design to edit it. When you’re happy with your content, you can save your design to a file, and export it to {registry-long} or use it in your client applications.
+You can use {studio} to create a schema or API design from a simple template, use one of the detailed templates provided, or import an existing design to edit it.
 endif::[]
 
 ifdef::apicurio-studio-downstream[]
@@ -27,8 +27,7 @@ You can use the {studio-long} web console to complete the following tasks:
 * Browse and search the schema and API designs that are stored in {studio-long}
 * Add new schema and API designs and versions
 * Import content from a file, from a URL, or from a {registry-long} instance
-* Show the changes that you’ve made in your current editing session
-* Save your content to a file
+* Show the changes that you have made in your current editing session
 --
 
 Design:: An API design or schema design. When downloaded to a local project, or used in {registry}, designs are referred to as _artifacts_.
@@ -56,7 +55,7 @@ The main use cases for {studio} are as follows:
 You can use {studio} to visually design the API and data models (_contracts_) required by your applications, before you write any application code. 
 After you define the contract, it is easier to create the application logic needed to satisfy the contract. You can generate Quarkus-based client and server applications from designs created in {studio}.
 
-ifndef::apicurio-studio-downstream[]
+ifdef::apicurio-studio-downstream[]
 
 * *Population of {registry}*
 +
