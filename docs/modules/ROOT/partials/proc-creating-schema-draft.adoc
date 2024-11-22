@@ -1,8 +1,8 @@
-[id="proc-creating-api-draft"]
-= Creating an API draft
+[id="proc-creating-schema-draft"]
+= Creating a schema draft
 
 [role="_abstract"]
-Use the {studio-long} web console to create an OpenAPI or AsyncAPI definition.
+Use the {studio-long} web console to create an Apache Avro, JSON Schema, or Google Protocol Buffers (Protobuf) event schema.
 
 .Prerequisites
 * You're logged in to the {studio} web console.
@@ -15,7 +15,7 @@ Use the {studio-long} web console to create an OpenAPI or AsyncAPI definition.
 +
 *  *Group ID & Draft ID*: Use the default empty settings to automatically generate an Draft ID and add the Draft to the `default` Draft group. Alternatively, you can enter an optional Group ID or Draft ID.
 * *Version number*: Optionally specify a version number.
-* *Type*: Use the default *Auto-Detect* setting to automatically detect the Draft type (not allowed if creating an empty Draft), or select the Draft type from the list, for example, *OpenAPI*. 
+* *Type*: Use the default *Auto-Detect* setting to automatically detect the Draft type (not allowed if creating an empty Draft), or select the Draft type from the list, for example, *Apache Avro*. 
 
 
 .. Specify the *Draft Content* and click *Next*:
@@ -35,27 +35,15 @@ The Draft details view is displayed.
 
 . To edit the draft, click *Edit draft*.
 +
-.. Click the *Design* tab, and optionally edit the draft as follows:
-* Provide a version number and a description.
-* _(AsyncAPI only)_ Define terms of service.
-* Add your contact information: name, email address, and URL.
-* Select a license.
-* _(OpenAPI only)_ Define tags.
-* Define one or more servers.
-* Configure a security scheme.
-* _(OpenAPI only)_ Specify security requirements.
-* _(OpenAPI only)_ Configure vendor extensions.
-.. Click the *Source* tab, and review the live preview of the draft.
-The content of the *Source* tab automatically updates when you edit values on the editor page.
+.. Click the *Design* tab, and edit the draft.
 .. _(Optional)_ To see the changes that you made since the last save, click *Actions > Show draft changes*.
 .. _(Optional)_ In the left pane of the draft editor, you can add the following items:
-* _(OpenAPI only)_ Resource paths, data types, and responses
-* _(AsyncAPI only)_ Channels, data types, messages, operation traits, and message traits
 .. Click *Save*.
 .. Use the breadcrumbs to navigate back to the *Drafts* page.
 
 The new draft is listed on the *Drafts* page using the Group ID and Draft ID.
 You can use the options icon (three vertical dots) to view the draft details, edit the draft content, finalize the draft, view the draft in {registry}, or delete the draft.
+
 
 .Additional information
 
