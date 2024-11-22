@@ -1,0 +1,9 @@
+include::partial$shared/all-attributes.adoc[]
+
+
+// Introduction
+* xref:ROOT:assembly-introduction.adoc[]
+
+* Installation
+** xref:ROOT:assembly-installing-studio-docker.adoc[]
+
